@@ -7,6 +7,7 @@ v = 5
 x = 10
 l = 50
 c = 100
+d = 500
 m = 1000
 
 Input given must in descending value order except when a letter is immediately preceded by a one lower than it in which case it will be substracted
@@ -24,7 +25,7 @@ if the previous one is less then current then current - prev and save in a resul
 '''
 
 
-my_dict = {'i':1, 'v':5, 'x':10, 'l':50,'c':100,'m':1000 }
+my_dict = {'i':1, 'v':5, 'x':10, 'l':50,'c':100, 'd':500, 'm':1000 }
 
 def roman_conv(romannum):
 
